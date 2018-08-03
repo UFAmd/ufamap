@@ -6,14 +6,13 @@ Edit by opening the file that needs changes in a text editor, making changes, an
 To add a user dot:
 In "index.html" find the section within the svg that applies to the user (academic, international, etc).
 Copy and paste the following into that section: 
-
-  <circle class="pin" class=""
-            cy=""
-            cx=""
-            fill=""
-            name=""
-            r=".35%" info=""
-            picture="" att="" atc="" ats="" atv="" atr="" />
+<circle class="pin" class=""
+         y=""
+         cx=""
+         fill=""
+         name=""
+         r=".35%" info=""
+         picture="" att="" atc="" ats="" atv="" atr="" />
  
  Set the "class" attribute to the user type. For example, class="faa" (for faa academic users).
  Use google maps or a similar service to find the latitude and longditude of the user location. Set cy to the latitude and cx to the    longditude.
